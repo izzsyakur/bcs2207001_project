@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','g95e1q%h0&cjp&bs1^*es3@@2ut2#mxo5=ar3o_i2hst=q2im%')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.eviron.get('DJANGO_DEBUG','')!='False'
+DEBUG = os.environ.get('DJANGO_DEBUG','')!='False'
 
 ALLOWED_HOSTS = []
 
